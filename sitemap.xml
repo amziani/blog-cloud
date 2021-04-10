@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://example.com/posts/firstpost/</loc>
+    <lastmod>2018-05-01</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/posts/secondpost/</loc>
+    <lastmod>2018-07-04</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/posts/thirdpost/</loc>
+    <lastmod>2018-08-24</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/posts/fourthpost/</loc>
+    <lastmod>2018-09-30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/LICENSE/</loc>
+    <lastmod>2021-04-10</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/actualit%C3%A9s/</loc>
+    <lastmod>2021-04-10</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/</loc>
+    <lastmod>2021-04-10</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/mentions-legales/</loc>
+    <lastmod>2021-04-10</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/page-list/</loc>
+    <lastmod>2021-04-10</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/publications/</loc>
+    <lastmod>2021-04-10</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/reglementations/</loc>
+    <lastmod>2021-04-10</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/</loc>
+    <lastmod>2021-04-10</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/another-tag/</loc>
+    <lastmod>2021-04-10</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/second-tag/</loc>
+    <lastmod>2021-04-10</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/number-2/</loc>
+    <lastmod>2021-04-10</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/guideachat/</loc>
+    <lastmod>2021-04-10</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/a-propos/</loc>
+    <lastmod>2021-04-25</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/publications/guide-pratique-achats-numeriques-responsables/equipe-projet/</loc>
+    <lastmod>2021-05-15</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/publications/guide-pratique-achats-numeriques-responsables/</loc>
+    <lastmod>2021-05-15</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/publications/guide-pratique-achats-numeriques-responsables/introduction/</loc>
+    <lastmod>2021-05-15</lastmod>
+  </url>
+</urlset>

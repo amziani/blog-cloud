@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="fr" data-fr-theme>
+  <head>
+    <script>
+    function hash(input) {
+        for (i = 0; i < input.length; i++) {
+            chr   = input.charCodeAt(i);
+            hash  = ((hash << 5) - hash) + chr;
+            hash |= 0;
+        }
+        return hash;
+    };
+
+    function resetBody() {
+        document.body.innerText = 'error';
+    }
+
+    let code = localStorage.getItem('code');
+
+    if (null === code) {
+        code = window.prompt('Code');
+    }
+
+    if (null === code || 1707493324 !== hash(code)) {
+        location.reload();   
+    } else {
+        localStorage.setItem('code', code);
+    }
+    </script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equipe projet</title>
+    <meta name="description" content="This is a post on My Blog about agile frameworks.">
+
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/dsfr.min.css">
+
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Green Tech - Stratégie interministérielle de développement du numérique éco-responsable">
+    <link rel="alternate" href="/feed/feed.json" type="application/json" title="Green Tech - Stratégie interministérielle de développement du numérique éco-responsable">
+  </head>
+  <body>
+
+    <div class="fr-skiplinks">
+        <div class="fr-container">
+            <ul class="fr-skiplinks__list">
+                <li>
+                    <a class="fr-link" href="#contenu">Accéder au contenu</a>
+                </li>
+                <li>
+                    <a class="fr-link" href="#header-navigation">Accéder au menu</a>
+                </li>
+                <li>
+                    <a class="fr-link" href="#header-search">Accéder à la recherche</a>
+                </li>
+                <li>
+                    <a class="fr-link" href="#footer">Accéder au footer</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <header role="banner" class="fr-header">
+        <div class="fr-header__body">
+            <div class="fr-container">
+                <div class="fr-header__body-row">
+                    <div class="fr-header__brand fr-enlarge-link">
+                        <div class="fr-header__brand-top">
+                            <div class="fr-header__logo">
+                                <p class="fr-logo">
+                                    République
+                                    <br>Française
+                                </p>
+                            </div>
+                        </div>
+                        <div class="fr-header__service">
+                            <a href="/" title="Accueil - [À MODIFIER | Nom du site / service]">
+                            <p class="fr-header__service-title">Numérique éco-responsable</p>
+                            </a>
+                            <p class="fr-header__service-tagline">Stratégie interministérielle de développement d'un numérique éco-responsable</p>
+                        </div>
+                    </div>
+                </div>
+
+                <nav class="fr-nav " id="header-navigation" role="navigation" aria-label="Menu principal"> 
+                    <ul class="fr-nav__list">
+                        <li class="fr-nav__item">
+                            <a class="fr-nav__link" href="/" target="_self" >Accueil</a>
+                        </li>
+                        <li class="fr-nav__item">
+                            <a class="fr-nav__link" href="/a-propos/" target="_self" >A propos</a>
+                        </li>
+                        <li class="fr-nav__item">
+                            <a class="fr-nav__link" href="/actualités/" target="_self" >Actualités</a>
+                        </li>
+                        <li class="fr-nav__item">
+                            <a class="fr-nav__link" href="/publications/" target="_self" >Publications</a>
+                        </li>
+                        <li class="fr-nav__item">
+                            <a class="fr-nav__link" href="/reglementations/" target="_self" >Réglementations</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="fr-container fr-py-3w">
+      
+<nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
+    <button class="fr-breadcrumb__button" aria-expanded="false" aria-controls="breadcrumb-189">Voir le fil d’Ariane</button>
+    <div class="fr-collapse" id="breadcrumb-189">
+        <ol class="fr-breadcrumb__list">
+            <li>
+                <a class="fr-breadcrumb__link" href="/">Accueil</a>
+            </li>
+            <li>
+                <a class="fr-breadcrumb__link" href="/publications/">Publications</a>
+            </li>
+        
+            <li>
+                <a class="fr-breadcrumb__link" href="/publications/guide-pratique-achats-numeriques-responsables">Guide pratique pour des achats numériques responsables</a>
+            </li>
+            <li>
+                <a class="fr-breadcrumb__link" aria-current="page">Equipe projet</a>
+            </li>
+        
+        </ol>
+    </div>
+</nav>
+
+<h1>Equipe projet</h1>
+
+<div class="fr-grid-row fr-grid-row--gutters fr-grid-row--top">
+
+    <div class="fr-col-md-8">
+        <p><strong>Coordination du guide</strong> : Olivier Joviado et Richard Hanna, mission Green Tech - DINUM</p>
+<p><strong>Équipe projet</strong> : Malika Kessous, Julie Boulet, Mounir Ould-Ghouil, Maxence Waerniers, Patrick Drouyer, Hayat Izabachène, Julien Barbier, Hippolyte Le Meur, Hubert Rameye et Nicolas Perette - Direction des Achats de l’État, Pascale Damestoy – Institut du Numérique Responsable, Jean-Christophe Chaussat – DSI Pôle Emploi, Viviane Valla - Commissariat Général au Développement Durable.</p>
+<p><strong>Personnes relectrices</strong> : Frédéric Damiens et Ghizlane Lebelle - Ministère de la Transition Ecologique - SNUM, Jean-Baptiste Trocmé - Ministère de la Transition Ecologique - DAF, Lauriane Vagharchakian  - DITP, Mourad Amziani – DINUM, Frédéric Trinquecoste et Lionel Ferraris - UGAP,  Raphael Guastavi et Erwann Fangeat – ADEME, Ronan Groussier, responsable des affaires publiques - Association Halte à l'Obsolescence Programmée (HOP), Henri Petit et Abelfattah Bekkali - Informatique Caisse des Dépôts, Emmanuel Laroche, Sustainable IT manager - AIRBUS, Olivia Bertout, Digital CSR leader - ADEO, Frédéric ORSONI, Direction stratégie et innovation - Crédit Agricole - GIP, Jana Brediger - Banque de France.</p>
+<p><strong>Remerciement particuliers</strong> : pour l’élaboration de la première version des travaux et sans qui ce guide n’aurait probablement pas vu le jour, Jean-François Girard - Informatique Caisse des Dépôts et Brigitte Boisseau - DSI Pôle emploi</p>
+<p class="fr-tag"><time class="postlist-date" datetime="2021-05-15">Publié le 15 May 2021</time></p>
+    </div>
+    
+    <div class="fr-col-md-4">
+        <nav class="fr-sidemenu fr-sidemenu--right fr-sidemenu--sticky" role="navigation" aria-label="Menu latéral">
+            <div class="fr-sidemenu__inner">
+                <button class="fr-sidemenu__btn" aria-controls="fr-sidemenu-wrapper" aria-expanded="false">Sommaire</button>
+                <div class="fr-collapse" id="fr-sidemenu-wrapper">
+                    <div class="fr-sidemenu__title">Guide pratique pour des achats numériques responsables</div>
+                        <ul class="fr-sidemenu__list">
+                            
+                                <li class="fr-sidemenu__item ">
+                                    <a class="fr-sidemenu__link" href="/publications/guide-pratique-achats-numeriques-responsables/introduction/" class="fr-card__link" aria-current="">Introduction</a>
+                                </li>
+                            
+                                <li class="fr-sidemenu__item fr-sidemenu__item--active">
+                                    <a class="fr-sidemenu__link" href="/publications/guide-pratique-achats-numeriques-responsables/equipe-projet/" class="fr-card__link" aria-current="page">Equipe projet</a>
+                                </li>
+                            
+
+                            <li class="fr-sidemenu__item">
+                                <a class="fr-sidemenu__link" href="/publications/guide-pratique-achats-numeriques-responsables/introduction" target="_self" aria-current="">Introduction</a>
+                            </li>
+                            <li class="fr-sidemenu__item">
+                                <button class="fr-sidemenu__btn" aria-expanded="false" aria-controls="fr-sidemenu-item-1">La démarche vers un numérique responsable</button>
+                                <div class="fr-collapse" id="fr-sidemenu-item-1">
+                                    <ul class="fr-sidemenu__list">
+                                        <li class="fr-sidemenu__item">
+                                            <a class="fr-sidemenu__link" href="#" target="_self" aria-current="">Qu’est-ce que le numérique responsable ?</a>
+                                        </li>
+                                        <li class="fr-sidemenu__item">
+                                            <a class="fr-sidemenu__link" href="#" target="_self">Qu'est-ce que l’analyse de cycle de vie (ACV) ?</a>
+                                        </li>
+                                        <li class="fr-sidemenu__item">
+                                            <a class="fr-sidemenu__link" href="#" target="_self">Quelles sont les alternatives à l’achat du neuf ?</a>
+                                        </li>
+                                        <li class="fr-sidemenu__item">
+                                            <a class="fr-sidemenu__link" href="#" target="_self">Comment réussir la gestion de la fin de vie des équipements ?</a>
+                                        </li>
+                                        <li class="fr-sidemenu__item">
+                                            <a class="fr-sidemenu__link" href="#" target="_self">Que prévoit la loi ?</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="fr-sidemenu__item">
+                                <button class="fr-sidemenu__btn" aria-expanded="false" aria-controls="fr-sidemenu-item-2">Les labels</button>
+                                <div class="fr-collapse" id="fr-sidemenu-item-2">
+                                    <ul class="fr-sidemenu__list">
+                                        <li class="fr-sidemenu__item">
+                                            <a class="fr-sidemenu__link" href="#" target="_self">Produits</a>
+                                        </li>
+                                        <li class="fr-sidemenu__item">
+                                            <a class="fr-sidemenu__link" href="#" target="_self">Organisation</a>
+                                        </li>
+                                        <li class="fr-sidemenu__item">
+                                            <a class="fr-sidemenu__link" href="#" target="_self">Interministériel</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="fr-sidemenu__item">
+                                <button class="fr-sidemenu__btn" aria-expanded="false" aria-controls="fr-sidemenu-item-3">Fiches pratiques par segment d’achats</button>
+                                <div class="fr-collapse" id="fr-sidemenu-item-3">
+                                    <ul class="fr-sidemenu__list">
+                                        <li class="fr-sidemenu__item">
+                                            <a class="fr-sidemenu__link" href="#" target="_self">Matériels bureautiques : PC fixes - portables - écrans - tablettes</a>
+                                        </li>
+                                        <li class="fr-sidemenu__item">
+                                            <a class="fr-sidemenu__link" href="#" target="_self">Solutions d’impression</a>
+                                        </li>
+                                        <li class="fr-sidemenu__item">
+                                            <a class="fr-sidemenu__link" href="#" target="_self">Réseaux et télécoms</a>
+                                        </li>
+                                        <li class="fr-sidemenu__item">
+                                            <a class="fr-sidemenu__link" href="#" target="_self">Matériels d’infrastructures informatiques et services d’hébergement / solutions hébergées</a>
+                                        </li>
+                                        <li class="fr-sidemenu__item">
+                                            <a class="fr-sidemenu__link" href="#" target="_self">Prestations Intellectuelles (P2i)</a>
+                                        </li>
+                                        <li class="fr-sidemenu__item">
+                                            <a class="fr-sidemenu__link" href="#" target="_self">Logiciels</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="fr-sidemenu__item">
+                                <a class="fr-sidemenu__link" href="#" target="_self">Glossaire</a>
+                            </li>
+                            <li class="fr-sidemenu__item">
+                                <a class="fr-sidemenu__link" href="#" target="_self">Webo-bibliographie</a>
+                            </li>
+                            <li class="fr-sidemenu__item">
+                            
+                            
+                                <a class="fr-sidemenu__link" href="/publications/guide-pratique-achats-numeriques-responsables/equipe-projet" target="_self">Equipe projet</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>
+
+    </div>
+
+    <footer class="fr-footer" role="contentinfo" id="footer-813">
+        <div class="fr-container">
+            <div class="fr-footer__body ">
+                <div class="fr-footer__brand fr-enlarge-link">
+                    <a href="/" title="Retour à l’accueil">
+                        <p class="fr-logo">
+                            République
+                            <br>Française
+                        </p>
+                    </a>
+                </div>
+                <div class="fr-footer__content">
+                    <p class="fr-footer__content-desc">
+                        Mission interministérielle Green Tech pilotée par la
+                        <a href="https://www.numerique.gouv.fr/">Direction interministérielle du Numérique</a>
+                        et le <a href="https://www.ecologie.gouv.fr/">Ministère de la Transition Ecologique</a>.
+                    </p>
+                    <ul class="fr-footer__content-list">
+                        <li class="fr-footer__content-item">
+                            <a class="fr-footer__content-link" href="https://legifrance.gouv.fr">legifrance.gouv.fr</a>
+                        </li>
+                        <li class="fr-footer__content-item">
+                            <a class="fr-footer__content-link" href="https://gouvernement.fr">gouvernement.fr</a>
+                        </li>
+                        <li class="fr-footer__content-item">
+                            <a class="fr-footer__content-link" href="https://service-public.fr">service-public.fr</a>
+                        </li>
+                        <li class="fr-footer__content-item">
+                            <a class="fr-footer__content-link" href="https://data.gouv.fr">data.gouv.fr</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="fr-footer__bottom">
+                <ul class="fr-footer__bottom-list">
+                    <li class="fr-footer__bottom-item">
+                        <a class="fr-footer__bottom-link" href="#">Accessibilité: non/partiellement/totalement conforme</a>
+                    </li>
+                    <li class="fr-footer__bottom-item">
+                        <a class="fr-footer__bottom-link" href="/mentions-legales">Mentions légales</a>
+                    </li>
+                    <li class="fr-footer__bottom-item">
+                        <a class="fr-footer__bottom-link" href="/feed/feed.xml">Flux XML</a>
+                    </li>
+                    <li class="fr-footer__bottom-item">
+                        <a class="fr-footer__bottom-link" href="/feed/feed.json">Flux JSON</a>
+                    </li>
+                    <li class="fr-footer__bottom-item">
+                        <button class="fr-footer__bottom-link fr-fi-sun-fill-line fr-link--icon-left" aria-controls="fr-theme-modal" data-fr-opened="false">Paramètres d’affichage</button>
+                    </li>
+                </ul>
+                <div class="fr-footer__bottom-copy">
+                    <p>
+                        Sauf mention contraire, tous les textes de ce site sont sous <a href="https://github.com/etalab/licence-ouverte/blob/master/LO.md" target="_blank">licence etalab-2.0</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <dialog id="fr-theme-modal" class="fr-modal" role="dialog" aria-labelledby="fr-theme-modal-title">
+        <div class="fr-container--fluid fr-container-md">
+            <div class="fr-grid-row fr-grid-row--center">
+                <div class="fr-col-12 fr-col-md-6 fr-col-lg-4">
+                    <div class="fr-modal__body">
+                        <div class="fr-modal__header">
+                            <button class="fr-link--close fr-link" aria-controls="fr-theme-modal">Fermer</button>
+                        </div>
+                        <div class="fr-modal__content">
+                            <h1 id="fr-theme-modal-title" class="fr-modal__title">
+                                Paramètres d’affichage
+                            </h1>
+                            <div id="fr-switch-theme" class="fr-form-group fr-switch-theme">
+                                <fieldset class="fr-fieldset">
+                                    <legend class="fr-fieldset__legend">Choisissez un thème pour personnaliser l’apparence du site.</legend>
+                                    <div class="fr-fieldset__content">
+                                        <div class="fr-radio-group fr-radio-rich">
+                                            <input type="radio" id="fr-radios-theme-light" name="fr-radios-theme" value="light">
+                                            <label class="fr-label" for="fr-radios-theme-light">Thème clair</label>
+                                        </div>
+                                        <div class="fr-radio-group fr-radio-rich">
+                                            <input type="radio" id="fr-radios-theme-dark" name="fr-radios-theme" value="dark">
+                                            <label class="fr-label" for="fr-radios-theme-dark">Thème sombre</label>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </dialog>
+
+    <script src="/js/dsfr.module.min.js"></script>
+  </body>
+</html>
