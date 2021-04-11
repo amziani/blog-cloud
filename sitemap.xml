@@ -62,11 +62,6 @@
   </url>
   
   <url>
-    <loc>https://ecoresponsable.numerique.gouv.fr/tags/second-tag/</loc>
-    <lastmod>2021-04-11</lastmod>
-  </url>
-  
-  <url>
     <loc>https://ecoresponsable.numerique.gouv.fr/tags/number-2/</loc>
     <lastmod>2021-04-11</lastmod>
   </url>
@@ -82,12 +77,92 @@
   </url>
   
   <url>
+    <loc>https://ecoresponsable.numerique.gouv.fr/tags/second-tag/</loc>
+    <lastmod>2021-04-11</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ecoresponsable.numerique.gouv.fr/a-propos/</loc>
     <lastmod>2021-04-25</lastmod>
   </url>
   
   <url>
+    <loc>https://ecoresponsable.numerique.gouv.fr/publications/guide-pratique-achats-numeriques-responsables/bibliographie/</loc>
+    <lastmod>2021-05-15</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ecoresponsable.numerique.gouv.fr/publications/guide-pratique-achats-numeriques-responsables/demarche-numerique-responsable/alternative-achat/</loc>
+    <lastmod>2021-05-15</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ecoresponsable.numerique.gouv.fr/publications/guide-pratique-achats-numeriques-responsables/demarche-numerique-responsable/analyse-cycle-de-vie/</loc>
+    <lastmod>2021-05-15</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ecoresponsable.numerique.gouv.fr/publications/guide-pratique-achats-numeriques-responsables/demarche-numerique-responsable/definition/</loc>
+    <lastmod>2021-05-15</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ecoresponsable.numerique.gouv.fr/publications/guide-pratique-achats-numeriques-responsables/demarche-numerique-responsable/fin-de-vie/</loc>
+    <lastmod>2021-05-15</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ecoresponsable.numerique.gouv.fr/publications/guide-pratique-achats-numeriques-responsables/demarche-numerique-responsable/</loc>
+    <lastmod>2021-05-15</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ecoresponsable.numerique.gouv.fr/publications/guide-pratique-achats-numeriques-responsables/demarche-numerique-responsable/que-prevoit-la-loi/</loc>
+    <lastmod>2021-05-15</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ecoresponsable.numerique.gouv.fr/publications/guide-pratique-achats-numeriques-responsables/equipe-projet/</loc>
+    <lastmod>2021-05-15</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ecoresponsable.numerique.gouv.fr/publications/guide-pratique-achats-numeriques-responsables/fiches-pratiques/bureautique/</loc>
+    <lastmod>2021-05-15</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ecoresponsable.numerique.gouv.fr/publications/guide-pratique-achats-numeriques-responsables/fiches-pratiques/hebergement/</loc>
+    <lastmod>2021-05-15</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ecoresponsable.numerique.gouv.fr/publications/guide-pratique-achats-numeriques-responsables/fiches-pratiques/impression/</loc>
+    <lastmod>2021-05-15</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ecoresponsable.numerique.gouv.fr/publications/guide-pratique-achats-numeriques-responsables/fiches-pratiques/</loc>
+    <lastmod>2021-05-15</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ecoresponsable.numerique.gouv.fr/publications/guide-pratique-achats-numeriques-responsables/fiches-pratiques/logiciels/</loc>
+    <lastmod>2021-05-15</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ecoresponsable.numerique.gouv.fr/publications/guide-pratique-achats-numeriques-responsables/fiches-pratiques/prestations-intellectuelles/</loc>
+    <lastmod>2021-05-15</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ecoresponsable.numerique.gouv.fr/publications/guide-pratique-achats-numeriques-responsables/fiches-pratiques/reseaux/</loc>
+    <lastmod>2021-05-15</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ecoresponsable.numerique.gouv.fr/publications/guide-pratique-achats-numeriques-responsables/glossaire/</loc>
     <lastmod>2021-05-15</lastmod>
   </url>
   
@@ -98,6 +173,26 @@
   
   <url>
     <loc>https://ecoresponsable.numerique.gouv.fr/publications/guide-pratique-achats-numeriques-responsables/introduction/</loc>
+    <lastmod>2021-05-15</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ecoresponsable.numerique.gouv.fr/publications/guide-pratique-achats-numeriques-responsables/labels/</loc>
+    <lastmod>2021-05-15</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ecoresponsable.numerique.gouv.fr/publications/guide-pratique-achats-numeriques-responsables/labels/interministeriel/</loc>
+    <lastmod>2021-05-15</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ecoresponsable.numerique.gouv.fr/publications/guide-pratique-achats-numeriques-responsables/labels/organisation/</loc>
+    <lastmod>2021-05-15</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ecoresponsable.numerique.gouv.fr/publications/guide-pratique-achats-numeriques-responsables/labels/produits/</loc>
     <lastmod>2021-05-15</lastmod>
   </url>
 </urlset>
