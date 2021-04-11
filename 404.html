@@ -47,19 +47,19 @@
   <body>
 
     <div class="fr-skiplinks">
-        <div class="fr-container">
+        <nav class="fr-container" role="navigation" aria-label="Accès rapide">
             <ul class="fr-skiplinks__list">
                 <li>
-                    <a class="fr-link" href="#contenu">Accéder au contenu</a>
+                    <a class="fr-link" href="#contenu">Contenu</a>
                 </li>
                 <li>
-                    <a class="fr-link" href="#header-navigation">Accéder au menu</a>
+                    <a class="fr-link" href="#header-navigation">Menu</a>
                 </li>
                 <li>
-                    <a class="fr-link" href="#footer">Accéder au pied de page</a>
+                    <a class="fr-link" href="#footer">Pied de page</a>
                 </li>
             </ul>
-        </div>
+        </nav>
     </div>
 
     <header role="banner" class="fr-header">
@@ -74,6 +74,12 @@
                                     <br>Française
                                 </p>
                             </div>
+
+                            <div class="fr-header__navbar">
+                                <button id="button-menu" class="fr-btn--menu fr-btn" data-fr-opened="false" aria-controls="header-navigation" aria-haspopup="menu" title="Menu">
+                                    Menu
+                                </button>
+                            </div>
                         </div>
                         <div class="fr-header__service">
                             <a href="/" title="Accueil - Mission Numérique éco-responsable">
@@ -83,9 +89,15 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
 
-                <nav class="fr-nav " id="header-navigation" role="navigation" aria-label="Menu principal"> 
-                    <ul class="fr-nav__list">
+        <div class="fr-header__menu fr-modal" id="header-navigation" aria-labelledby="button-menu">
+            <div class="fr-container">
+                <button class="fr-link--close fr-link" aria-controls="header-navigation">Fermer</button>
+                <div class="fr-header__menu-links"></div>
+                <nav class="fr-nav" id="navigation-832" role="navigation" aria-label="Menu principal">
+                    <ul class="fr-nav__list"
                         <li class="fr-nav__item">
                             <a class="fr-nav__link" href="/" target="_self" >Accueil</a>
                         </li>
@@ -161,7 +173,7 @@
                         <a class="fr-footer__bottom-link" href="/feed/feed.json">Flux JSON</a>
                     </li>
                     <li class="fr-footer__bottom-item">
-                        <button class="fr-footer__bottom-link fr-fi-sun-fill-line fr-link--icon-left" aria-controls="fr-theme-modal" data-fr-opened="false">Paramètres d’affichage</button>
+                        <button class="fr-footer__bottom-link fr-fi-theme-fill fr-link--icon-left" aria-controls="fr-theme-modal" data-fr-opened="false">Paramètres d'affichage</button>
                     </li>
                 </ul>
                 <div class="fr-footer__bottom-copy">
