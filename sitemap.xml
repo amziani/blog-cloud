@@ -2,26 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://ecoresponsable.numerique.gouv.fr/posts/firstpost/</loc>
-    <lastmod>2018-05-01</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ecoresponsable.numerique.gouv.fr/posts/secondpost/</loc>
-    <lastmod>2018-07-04</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ecoresponsable.numerique.gouv.fr/posts/thirdpost/</loc>
-    <lastmod>2018-08-24</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ecoresponsable.numerique.gouv.fr/posts/fourthpost/</loc>
-    <lastmod>2018-09-30</lastmod>
-  </url>
-  
-  <url>
     <loc>https://ecoresponsable.numerique.gouv.fr/LICENSE/</loc>
     <lastmod>2021-04-12</lastmod>
   </url>
@@ -62,22 +42,7 @@
   </url>
   
   <url>
-    <loc>https://ecoresponsable.numerique.gouv.fr/tags/second-tag/</loc>
-    <lastmod>2021-04-12</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ecoresponsable.numerique.gouv.fr/tags/another-tag/</loc>
-    <lastmod>2021-04-12</lastmod>
-  </url>
-  
-  <url>
     <loc>https://ecoresponsable.numerique.gouv.fr/tags/guideachat/</loc>
-    <lastmod>2021-04-12</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ecoresponsable.numerique.gouv.fr/tags/number-2/</loc>
     <lastmod>2021-04-12</lastmod>
   </url>
   
@@ -94,6 +59,11 @@
   <url>
     <loc>https://ecoresponsable.numerique.gouv.fr/r%C3%A9glementations/</loc>
     <lastmod>2021-04-25</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ecoresponsable.numerique.gouv.fr/posts/guide-achats-numerique-responsable-version-beta/</loc>
+    <lastmod>2021-04-29</lastmod>
   </url>
   
   <url>
