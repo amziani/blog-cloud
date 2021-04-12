@@ -12,7 +12,7 @@
     };
 
     function resetBody() {
-        document.body.innerText = 'error';
+        document.body.style.display = 'inherit';
     }
 
     let code = localStorage.getItem('code');
@@ -25,6 +25,7 @@
         location.reload();   
     } else {
         localStorage.setItem('code', code);
+        window.onload = resetBody;
     }
     </script>
 
@@ -44,7 +45,7 @@
     <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Numérique éco-responsable - Stratégie interministérielle pour un numérique éco-responsable">
     <link rel="alternate" href="/feed/feed.json" type="application/json" title="Numérique éco-responsable - Stratégie interministérielle pour un numérique éco-responsable">
   </head>
-  <body>
+  <body style="display: none">
 
     <div class="fr-skiplinks">
         <nav class="fr-container" role="navigation" aria-label="Accès rapide">
@@ -102,13 +103,13 @@
                             <a class="fr-nav__link" href="/" target="_self" aria-current="page">Accueil</a>
                         </li>
                         <li class="fr-nav__item">
-                            <a class="fr-nav__link" href="/a-propos/" target="_self" >A propos</a>
+                            <a class="fr-nav__link" href="/a-propos/" target="_self" >À propos</a>
                         </li>
                         <li class="fr-nav__item">
                             <a class="fr-nav__link" href="/actualités/" target="_self" >Actualités</a>
                         </li>
                         <li class="fr-nav__item">
-                            <a class="fr-nav__link" href="/reglementations/" target="_self" >Réglementations</a>
+                            <a class="fr-nav__link" href="/réglementations/" target="_self" >Réglementations</a>
                         </li>
                         <li class="fr-nav__item">
                             <a class="fr-nav__link" href="/publications/" target="_self" >Publications</a>
@@ -207,10 +208,10 @@
             <div class="fr-footer__bottom">
                 <ul class="fr-footer__bottom-list">
                     <li class="fr-footer__bottom-item">
-                        <a class="fr-footer__bottom-link" href="#">Accessibilité: non/partiellement/totalement conforme</a>
+                        <a class="fr-footer__bottom-link" href="/accessibilité/">Accessibilité: non/partiellement/totalement conforme</a>
                     </li>
                     <li class="fr-footer__bottom-item">
-                        <a class="fr-footer__bottom-link" href="/mentions-legales">Mentions légales</a>
+                        <a class="fr-footer__bottom-link" href="/mentions-legales/">Mentions légales</a>
                     </li>
                     <li class="fr-footer__bottom-item">
                         <a class="fr-footer__bottom-link" href="/feed/feed.xml">Flux XML</a>

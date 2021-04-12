@@ -12,7 +12,7 @@
     };
 
     function resetBody() {
-        document.body.innerText = 'error';
+        document.body.style.display = 'inherit';
     }
 
     let code = localStorage.getItem('code');
@@ -25,12 +25,13 @@
         location.reload();   
     } else {
         localStorage.setItem('code', code);
+        window.onload = resetBody;
     }
     </script>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Réglementations</title>
+    <title>Accessibilité</title>
     <meta name="description" content="Mission interministérielle Green Tech pilotée par la DINUM et le Ministère de la Transition Ecologique">
 
     <link rel="stylesheet" href="/css/index.css">
@@ -44,7 +45,7 @@
     <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Numérique éco-responsable - Stratégie interministérielle pour un numérique éco-responsable">
     <link rel="alternate" href="/feed/feed.json" type="application/json" title="Numérique éco-responsable - Stratégie interministérielle pour un numérique éco-responsable">
   </head>
-  <body>
+  <body style="display: none">
 
     <div class="fr-skiplinks">
         <nav class="fr-container" role="navigation" aria-label="Accès rapide">
@@ -102,13 +103,13 @@
                             <a class="fr-nav__link" href="/" target="_self" >Accueil</a>
                         </li>
                         <li class="fr-nav__item">
-                            <a class="fr-nav__link" href="/a-propos/" target="_self" >A propos</a>
+                            <a class="fr-nav__link" href="/a-propos/" target="_self" >À propos</a>
                         </li>
                         <li class="fr-nav__item">
                             <a class="fr-nav__link" href="/actualités/" target="_self" >Actualités</a>
                         </li>
-                        <li class="fr-nav__item fr-nav__item--active">
-                            <a class="fr-nav__link" href="/reglementations/" target="_self" aria-current="page">Réglementations</a>
+                        <li class="fr-nav__item">
+                            <a class="fr-nav__link" href="/réglementations/" target="_self" >Réglementations</a>
                         </li>
                         <li class="fr-nav__item">
                             <a class="fr-nav__link" href="/publications/" target="_self" >Publications</a>
@@ -120,16 +121,54 @@
     </header>
 
     <div id="contenu" class="fr-container fr-py-3w">
-      <h1>Réglementations</h1>
+      <h1>Accessibilité</h1>
 
 <div class="fr-grid-row fr-grid-row--gutters fr-grid-row--top">
   <div class="fr-col-md-8">
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut semper mauris quis varius varius. Vestibulum sit amet lorem non nibh tempor venenatis condimentum ut lectus. Sed non libero tellus. Suspendisse ultrices id nunc a tincidunt. Nam ornare diam in nulla varius ullamcorper. Ut placerat eu erat et ornare. In ullamcorper urna in justo congue, dignissim placerat erat eleifend. Praesent tortor erat, suscipit in tellus vel, egestas gravida ligula. Duis molestie, metus nec lacinia semper, turpis orci vestibulum leo, sit amet viverra dolor lacus in massa. Nullam arcu nisl, lobortis egestas nisi feugiat, feugiat mollis erat. Nam lacinia orci hendrerit, vestibulum elit ut, hendrerit mauris. Morbi tincidunt mi egestas massa pellentesque, a vestibulum ex laoreet. Aliquam sapien tortor, commodo ut nibh consequat, commodo commodo arcu. Aenean quis accumsan nulla.</p>
-<h2>Loi AGEC</h2>
-<p>Aliquam eget leo fringilla, condimentum felis non, accumsan nulla. Nullam velit felis, efficitur at aliquam ut, vestibulum et risus. Suspendisse consequat, arcu eget euismod convallis, sapien turpis fringilla dui, eu vehicula tellus odio id sapien. Duis velit enim, molestie in pretium ac, tristique eu felis. Praesent efficitur eros sit amet justo euismod aliquet sit amet ac libero. Nulla faucibus ac nisl vel faucibus. Nunc semper lorem quis luctus sodales. Donec convallis leo lectus, id tincidunt velit suscipit ac.</p>
-<p>Aliquam tincidunt metus dolor, non iaculis tellus condimentum non. Maecenas varius, dui id vehicula dignissim, lacus quam pellentesque elit, commodo interdum libero ligula vel ex. Sed gravida tortor libero, nec vulputate arcu vestibulum ac. In nec gravida arcu. Suspendisse laoreet dictum est, nec sollicitudin odio rhoncus ut. Suspendisse ut malesuada velit. Fusce eu viverra mauris, at ultrices lectus. Praesent diam orci, dictum id dolor eu, semper egestas nisi.</p>
+    <h2>Déclaration d’accessibilité</h2>
+<p>Le site <a href="http://ecoresponsable.numerique.gouv.fr">ecoresponsable.numerique.gouv.fr</a> est développé selon les recommendations de la charte graphique de l'État, le système de design de l'État et du référentiel général d’amélioration de l’accessibilité (RGAA) pour être accessible à tous les usagers quel que soit le matériel ou le logiciel utilisé pour naviguer sur internet.</p>
+<h3>État de conformité</h3>
+<p>Ce site est totalement conforme avec le RGAA 4.</p>
+<h3>Échantillon évalué</h3>
+<p>L’audit mené en avril 2021 par nos soins n’a relevé aucune non-conformité sur l’échantillon suivant :</p>
+<ul>
+<li><a href="/">Accueil</a></li>
+<li><a href="/a-propos/">À propos</a></li>
+<li><a href="/actualit%C3%A9s/">Actualités</a></li>
+<li><a href="/r%C3%A9glementations/">Réglementations</a></li>
+<li><a href="/publications/">Publications</a></li>
+<li><a href="/publications/guide-pratique-achats-numeriques-responsables/">Guide pratique pour des achats numériques responsables</a></li>
+</ul>
+<h2>Retour d’information et contact</h2>
+<p>La DINUM s’engage à prendre les moyens nécessaires afin de donner accès, dans un délai raisonnable, aux informations et fonctionnalités recherchées par la personne handicapée, que le contenu fasse l’objet d’une dérogation ou non.</p>
+<p>La DINUM invite les personnes qui rencontreraient des difficultés à la contacter par courriel à <a href="mailto:numerique-responsable.dinum@modernisation.gouv.fr">numerique-responsable.dinum@modernisation.gouv.fr</a> afin qu’une assistance puisse être apportée (alternative accessible, information et contenu donnés sous une autre forme).</p>
+<h2>Défenseur des droits</h2>
+<p>Si vous constatez un défaut d’accessibilité vous empêchant d’accéder à un contenu ou une fonctionnalité du site, que vous nous le signalez et que vous ne parvenez pas à obtenir une réponse rapide de notre part, vous êtes en droit de faire parvenir vos doléances ou une demande de saisine au Défenseur des droits. Plusieurs moyens sont à votre disposition :</p>
+<ul>
+<li>un <a href="https://www.defenseurdesdroits.fr/nous-contacter">formulaire de contact</a>,</li>
+<li>la <a href="https://www.defenseurdesdroits.fr/fr/saisir/delegues">liste des délégués de votre région</a> avec leurs informations de contact directs,</li>
+<li>un numéro de téléphone : le 09 69 39 00 00 du lundi au vendredi de 8h00 à 20h00 (coût d’un appel local),</li>
+<li>une adresse postale dans l’<a href="https://lannuaire.service-public.fr/autorites-independantes/autorite-administrative-independante_195381">annuaire de l’administration</a>.</li>
+</ul>
 
+      <hr />
+      <p><time class="fr-tag" datetime="2021-04-25">Publié le 25/04/2021</time></p>
+    
   </div>
+  <div class="fr-col-md-4">
+    <div class="fr-card fr-enlarge-link">
+      <div class="fr-card__body">
+          <h4 class="fr-card__title">
+              <a href="/actualités/" class="fr-card__link">Actualités</a>
+          </h4>
+          <p class="fr-card__desc"></p>
+      </div>
+      <div class="fr-card__img">
+          <img src="/img/guide-achats.png" alt="">
+      </div>
+    </div>
+  </div>
+
 </div>
 
     </div>
@@ -170,10 +209,10 @@
             <div class="fr-footer__bottom">
                 <ul class="fr-footer__bottom-list">
                     <li class="fr-footer__bottom-item">
-                        <a class="fr-footer__bottom-link" href="#">Accessibilité: non/partiellement/totalement conforme</a>
+                        <a class="fr-footer__bottom-link" href="/accessibilité/">Accessibilité: non/partiellement/totalement conforme</a>
                     </li>
                     <li class="fr-footer__bottom-item">
-                        <a class="fr-footer__bottom-link" href="/mentions-legales">Mentions légales</a>
+                        <a class="fr-footer__bottom-link" href="/mentions-legales/">Mentions légales</a>
                     </li>
                     <li class="fr-footer__bottom-item">
                         <a class="fr-footer__bottom-link" href="/feed/feed.xml">Flux XML</a>

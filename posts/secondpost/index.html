@@ -12,7 +12,7 @@
     };
 
     function resetBody() {
-        document.body.innerText = 'error';
+        document.body.style.display = 'inherit';
     }
 
     let code = localStorage.getItem('code');
@@ -25,6 +25,7 @@
         location.reload();   
     } else {
         localStorage.setItem('code', code);
+        window.onload = resetBody;
     }
     </script>
 
@@ -44,7 +45,7 @@
     <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Numérique éco-responsable - Stratégie interministérielle pour un numérique éco-responsable">
     <link rel="alternate" href="/feed/feed.json" type="application/json" title="Numérique éco-responsable - Stratégie interministérielle pour un numérique éco-responsable">
   </head>
-  <body>
+  <body style="display: none">
 
     <div class="fr-skiplinks">
         <nav class="fr-container" role="navigation" aria-label="Accès rapide">
@@ -102,13 +103,13 @@
                             <a class="fr-nav__link" href="/" target="_self" >Accueil</a>
                         </li>
                         <li class="fr-nav__item">
-                            <a class="fr-nav__link" href="/a-propos/" target="_self" >A propos</a>
+                            <a class="fr-nav__link" href="/a-propos/" target="_self" >À propos</a>
                         </li>
                         <li class="fr-nav__item">
                             <a class="fr-nav__link" href="/actualités/" target="_self" >Actualités</a>
                         </li>
                         <li class="fr-nav__item">
-                            <a class="fr-nav__link" href="/reglementations/" target="_self" >Réglementations</a>
+                            <a class="fr-nav__link" href="/réglementations/" target="_self" >Réglementations</a>
                         </li>
                         <li class="fr-nav__item">
                             <a class="fr-nav__link" href="/publications/" target="_self" >Publications</a>
@@ -120,7 +121,7 @@
     </header>
 
     <div id="contenu" class="fr-container fr-py-3w">
-      <h1>This is my second post.</h1><p><time class="fr-tag" datetime="2018-07-04">Publié le 04/07/2018</time></p>
+      <h1>This is my second post.</h1>
 
 <div class="fr-grid-row fr-grid-row--gutters fr-grid-row--top">
   <div class="fr-col-md-8">
@@ -131,7 +132,24 @@
 <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
 <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
 
+      <hr />
+      <p><time class="fr-tag" datetime="2018-07-04">Publié le 04/07/2018</time></p>
+    
   </div>
+  <div class="fr-col-md-4">
+    <div class="fr-card fr-enlarge-link">
+      <div class="fr-card__body">
+          <h4 class="fr-card__title">
+              <a href="/actualités/" class="fr-card__link">Actualités</a>
+          </h4>
+          <p class="fr-card__desc"></p>
+      </div>
+      <div class="fr-card__img">
+          <img src="/img/guide-achats.png" alt="">
+      </div>
+    </div>
+  </div>
+
 </div>
 
     </div>
@@ -172,10 +190,10 @@
             <div class="fr-footer__bottom">
                 <ul class="fr-footer__bottom-list">
                     <li class="fr-footer__bottom-item">
-                        <a class="fr-footer__bottom-link" href="#">Accessibilité: non/partiellement/totalement conforme</a>
+                        <a class="fr-footer__bottom-link" href="/accessibilité/">Accessibilité: non/partiellement/totalement conforme</a>
                     </li>
                     <li class="fr-footer__bottom-item">
-                        <a class="fr-footer__bottom-link" href="/mentions-legales">Mentions légales</a>
+                        <a class="fr-footer__bottom-link" href="/mentions-legales/">Mentions légales</a>
                     </li>
                     <li class="fr-footer__bottom-item">
                         <a class="fr-footer__bottom-link" href="/feed/feed.xml">Flux XML</a>
