@@ -2,36 +2,37 @@
 <html lang="fr" data-fr-theme>
   <head>
     <script>
-    function hash(input) {
-        for (i = 0; i < input.length; i++) {
-            chr   = input.charCodeAt(i);
-            hash  = ((hash << 5) - hash) + chr;
-            hash |= 0;
+        // light protection, to remove
+        function hash(input) {
+            for (i = 0; i < input.length; i++) {
+                chr   = input.charCodeAt(i);
+                hash  = ((hash << 5) - hash) + chr;
+                hash |= 0;
+            }
+            return hash;
+        };
+
+        function resetBody() {
+            document.body.style.display = 'inherit';
         }
-        return hash;
-    };
 
-    function resetBody() {
-        document.body.style.display = 'inherit';
-    }
+        let code = localStorage.getItem('code');
 
-    let code = localStorage.getItem('code');
+        if (null === code) {
+            code = window.prompt('Code');
+        }
 
-    if (null === code) {
-        code = window.prompt('Code');
-    }
-
-    if (null === code || 1707493324 !== hash(code)) {
-        location.reload();   
-    } else {
-        localStorage.setItem('code', code);
-        window.onload = resetBody;
-    }
+        if (null === code || 1707493324 !== hash(code)) {
+            location.reload();
+        } else {
+            localStorage.setItem('code', code);
+            window.onload = resetBody;
+        }
     </script>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tagged “guideachat”</title>
+    <title>Tagged “guideachat” - Numérique éco-responsable</title>
     <meta name="description" content="Mission interministérielle Green Tech pilotée par la DINUM et le Ministère de la Transition Ecologique">
 
     <link rel="stylesheet" href="/css/index.css">
@@ -42,8 +43,8 @@
     <link rel="shortcut icon" href="/favicons/favicon.ico" type="image/x-icon">
     <link rel="manifest" href="/favicons/manifest.webmanifest" crossorigin="use-credentials">
 
-    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Numérique éco-responsable - Stratégie interministérielle pour un numérique éco-responsable">
-    <link rel="alternate" href="/feed/feed.json" type="application/json" title="Numérique éco-responsable - Stratégie interministérielle pour un numérique éco-responsable">
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Numérique éco-responsable">
+    <link rel="alternate" href="/feed/feed.json" type="application/json" title="Numérique éco-responsable">
   </head>
   <body style="display: none">
 
@@ -135,7 +136,7 @@
                 <a href="/publications/guide-pratique-achats-numeriques-responsables/introduction/" class="fr-card__link">Introduction</a>
             </h4>
             <p class="fr-card__desc">
-              This is a post on My Blog about agile frameworks.
+              
             </p>
         </div>
         <div class="fr-card__img">
@@ -169,7 +170,7 @@
                 <a href="/publications/guide-pratique-achats-numeriques-responsables/equipe-projet/" class="fr-card__link">Equipe projet</a>
             </h4>
             <p class="fr-card__desc">
-              This is a post on My Blog about agile frameworks.
+              
             </p>
         </div>
         <div class="fr-card__img">
@@ -186,7 +187,7 @@
                 <a href="/publications/guide-pratique-achats-numeriques-responsables/bibliographie/" class="fr-card__link">Webo-bibliographie</a>
             </h4>
             <p class="fr-card__desc">
-              Webo-bibliographie du Guide pour des achats numériques responsables
+              
             </p>
         </div>
         <div class="fr-card__img">
