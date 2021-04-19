@@ -482,5 +482,13 @@ S’engager dans une démarche d’achat numérique responsable est un premier p
     </dialog>
 
     <script src="/js/dsfr.module.min.js"></script>
+    <script src="/js/smarttag.js"></script>
+    <script>
+    var tag = new ATInternet.Tracker.Tag({ sendHitWhenOptOut: false });
+    //tag.privacy.setVisitorOptout();
+    tag.privacy.setVisitorMode('cnil', 'exempt');
+    tag.page.set({ name: "Guide pratique pour des achats numériques responsables" });
+    tag.dispatch();
+    </script>
   </body>
 </html>

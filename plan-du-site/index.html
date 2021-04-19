@@ -193,6 +193,10 @@
       <ul>
       
         <li>
+          <a href="/publications/ressources-ademe/">Ressources ADEME sur le numérique responsable</a>
+        </li>
+      
+        <li>
           <a href="/publications/guide-pratique-achats-numeriques-responsables/">Guide pratique pour des achats numériques responsables</a>
         </li>
       
@@ -320,5 +324,13 @@
     </dialog>
 
     <script src="/js/dsfr.module.min.js"></script>
+    <script src="/js/smarttag.js"></script>
+    <script>
+    var tag = new ATInternet.Tracker.Tag({ sendHitWhenOptOut: false });
+    //tag.privacy.setVisitorOptout();
+    tag.privacy.setVisitorMode('cnil', 'exempt');
+    tag.page.set({ name: "Plan du site" });
+    tag.dispatch();
+    </script>
   </body>
 </html>

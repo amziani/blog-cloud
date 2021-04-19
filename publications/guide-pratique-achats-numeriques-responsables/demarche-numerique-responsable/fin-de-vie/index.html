@@ -501,5 +501,13 @@ Le recyclage des DEEE est enfin une source importante d’emploi local, notammen
     </dialog>
 
     <script src="/js/dsfr.module.min.js"></script>
+    <script src="/js/smarttag.js"></script>
+    <script>
+    var tag = new ATInternet.Tracker.Tag({ sendHitWhenOptOut: false });
+    //tag.privacy.setVisitorOptout();
+    tag.privacy.setVisitorMode('cnil', 'exempt');
+    tag.page.set({ name: "Comment réussir la gestion de la fin de vie des équipements ?" });
+    tag.dispatch();
+    </script>
   </body>
 </html>

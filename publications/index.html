@@ -164,6 +164,21 @@
     </div> 
   </div>
 
+  <div class="fr-col-md-4">
+    <div class="fr-card fr-enlarge-link">
+        <div class="fr-card__body">
+            <p class="fr-card__detail"><time datetime="2021-04-29">29/04/2021</time></p>
+            <h2 class="fr-card__title">
+                <a href="/publications/ressources-ademe/" class="fr-card__link">Ressources ADEME sur le numérique responsable</a>
+            </h2>
+            
+        </div>
+        <div class="fr-card__img">
+            <img src="/img/ressources-ademe/face-cachee-numerique.png" alt="">
+        </div>
+    </div> 
+  </div>
+
 
 </div>
         </div>
@@ -270,5 +285,13 @@
     </dialog>
 
     <script src="/js/dsfr.module.min.js"></script>
+    <script src="/js/smarttag.js"></script>
+    <script>
+    var tag = new ATInternet.Tracker.Tag({ sendHitWhenOptOut: false });
+    //tag.privacy.setVisitorOptout();
+    tag.privacy.setVisitorMode('cnil', 'exempt');
+    tag.page.set({ name: "Publications" });
+    tag.dispatch();
+    </script>
   </body>
 </html>
