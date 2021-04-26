@@ -439,6 +439,9 @@ Les critères relatifs aux données personnelles sont issus du RGPD : cartograph
                         <a class="fr-footer__bottom-link" href="/mentions-legales/">Mentions légales</a>
                     </li>
                     <li class="fr-footer__bottom-item">
+                        <a class="fr-footer__bottom-link" href="/données-personnelles/">Données personnelles et cookies</a>
+                    </li>
+                    <li class="fr-footer__bottom-item">
                         <a class="fr-footer__bottom-link" href="/feed/feed.xml">Flux XML</a>
                     </li>
                     <li class="fr-footer__bottom-item">
@@ -494,11 +497,10 @@ Les critères relatifs aux données personnelles sont issus du RGPD : cartograph
     <script src="/js/dsfr.module.min.js"></script>
     <script src="/js/smarttag.js"></script>
     <script>
-    var tag = new ATInternet.Tracker.Tag({ sendHitWhenOptOut: false });
-    //tag.privacy.setVisitorOptout();
-    tag.privacy.setVisitorMode('cnil', 'exempt');
-    tag.page.set({ name: "La mission interministérielle LABEL" });
-    tag.dispatch();
+        var tag = new ATInternet.Tracker.Tag({ sendHitWhenOptOut: false });
+        tag.privacy.setVisitorMode('cnil', 'exempt');
+        tag.page.set({ name: "La mission interministérielle LABEL" });
+        tag.dispatch();
     </script>
   </body>
 </html>
