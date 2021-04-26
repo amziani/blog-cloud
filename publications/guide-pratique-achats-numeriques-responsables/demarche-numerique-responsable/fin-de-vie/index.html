@@ -498,9 +498,16 @@ Le recyclage des DEEE est enfin une source importante d’emploi local, notammen
     <script src="/js/smarttag.js"></script>
     <script>
         var tag = new ATInternet.Tracker.Tag({ sendHitWhenOptOut: false });
-        tag.privacy.setVisitorMode('cnil', 'exempt');
-        tag.page.set({ name: "Comment réussir la gestion de la fin de vie des équipements ?" });
-        tag.dispatch();
+        
+        if (!isOptout()) {
+            tag.privacy.setVisitorMode('cnil', 'exempt');
+            tag.page.set({ name: "Comment réussir la gestion de la fin de vie des équipements ?" });
+            tag.dispatch();
+        }
+
+        function isOptout() {
+            return 'optout' === tag.privacy.getVisitorMode().name;
+        }
     </script>
   </body>
 </html>

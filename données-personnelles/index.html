@@ -185,18 +185,8 @@
   </button>
 </form>
 <script>
-function isOptout()
-{
-    var tag = new ATInternet.Tracker.Tag({ sendHitWhenOptOut: false });
-    var mode = tag.privacy.getVisitorMode();
-
-    return 'optout' === mode.name;
-}
-
 function submitOptout()
-{
-    var tag = new ATInternet.Tracker.Tag({ sendHitWhenOptOut: false });
-    
+{   
     if (isOptout()) {
       tag.privacy.setVisitorOptin();
     } else {
@@ -342,9 +332,16 @@ window.addEventListener('load', initOptout);
     <script src="/js/smarttag.js"></script>
     <script>
         var tag = new ATInternet.Tracker.Tag({ sendHitWhenOptOut: false });
-        tag.privacy.setVisitorMode('cnil', 'exempt');
-        tag.page.set({ name: "Données personnelles et cookies" });
-        tag.dispatch();
+        
+        if (!isOptout()) {
+            tag.privacy.setVisitorMode('cnil', 'exempt');
+            tag.page.set({ name: "Données personnelles et cookies" });
+            tag.dispatch();
+        }
+
+        function isOptout() {
+            return 'optout' === tag.privacy.getVisitorMode().name;
+        }
     </script>
   </body>
 </html>
