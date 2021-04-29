@@ -1,35 +1,6 @@
 <!doctype html>
 <html lang="fr" data-fr-theme>
   <head>
-    <script>
-        // light protection, to remove
-        function hash(input) {
-            for (i = 0; i < input.length; i++) {
-                chr   = input.charCodeAt(i);
-                hash  = ((hash << 5) - hash) + chr;
-                hash |= 0;
-            }
-            return hash;
-        };
-
-        function resetBody() {
-            document.body.style.display = 'inherit';
-        }
-
-        let code = localStorage.getItem('code');
-
-        if (null === code) {
-            code = window.prompt('Code');
-        }
-
-        if (null === code || 1707493324 !== hash(code)) {
-            location.reload();
-        } else {
-            localStorage.setItem('code', code);
-            window.onload = resetBody;
-        }
-    </script>
-
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Guide pratique pour des achats numériques responsables - Numérique écoresponsable</title>
@@ -46,8 +17,7 @@
     <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Numérique écoresponsable">
     <link rel="alternate" href="/feed/feed.json" type="application/json" title="Numérique écoresponsable">
   </head>
-  <body style="display: none">
-
+  <body>
     <div class="fr-skiplinks">
         <nav class="fr-container" role="navigation" aria-label="Accès rapide">
             <ul class="fr-skiplinks__list">
@@ -263,7 +233,7 @@
   </div>
 </div>
 <h2>Télécharger</h2>
-<p><a class="fr-link fr-fi-download-line fr-link--icon-left" target="_self" href="#">Télécharger le Guide pratique pour des achats numériques responsables (PDF, X Mo)</a></p>
+<p><a class="fr-link fr-fi-download-line fr-link--icon-left" target="_self" href="/docs/2021/guide-achats-numeriques-responsables-version-beta-avril-2021.pdf">Télécharger le Guide pratique pour des achats numériques responsables (pdf 1,8 Mo)</a></p>
 <h2>Contribuer</h2>
 <p><a class="fr-link fr-fi-arrow-right-line fr-link--icon-right" href="https://purpoz.com/consultation/guide-pour-des-achats-numeriques-responsables/presentation/presentation">Participer à la consultation publique</a></p>
 <h2>Consulter</h2>
@@ -445,7 +415,7 @@
                             
 
                             <li class="fr-sidemenu__item">
-                                <a class="fr-sidemenu__link" href="#"><span class="fr-fi-download-line fr-link--icon-left" aria-hidden="true"></span> Télécharger le guide (pdf, 1 Mo)</a>
+                                <a class="fr-sidemenu__link" href="/docs/2021/guide-achats-numeriques-responsables-version-beta-avril-2021.pdf"><span class="fr-fi-download-line fr-link--icon-left" aria-hidden="true"></span> Télécharger le guide (pdf 1,8 Mo)</a>
                             </li>
                         </ul>
                     </div>

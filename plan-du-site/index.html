@@ -1,35 +1,6 @@
 <!doctype html>
 <html lang="fr" data-fr-theme>
   <head>
-    <script>
-        // light protection, to remove
-        function hash(input) {
-            for (i = 0; i < input.length; i++) {
-                chr   = input.charCodeAt(i);
-                hash  = ((hash << 5) - hash) + chr;
-                hash |= 0;
-            }
-            return hash;
-        };
-
-        function resetBody() {
-            document.body.style.display = 'inherit';
-        }
-
-        let code = localStorage.getItem('code');
-
-        if (null === code) {
-            code = window.prompt('Code');
-        }
-
-        if (null === code || 1707493324 !== hash(code)) {
-            location.reload();
-        } else {
-            localStorage.setItem('code', code);
-            window.onload = resetBody;
-        }
-    </script>
-
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Plan du site - Numérique écoresponsable</title>
@@ -46,8 +17,7 @@
     <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Numérique écoresponsable">
     <link rel="alternate" href="/feed/feed.json" type="application/json" title="Numérique écoresponsable">
   </head>
-  <body style="display: none">
-
+  <body>
     <div class="fr-skiplinks">
         <nav class="fr-container" role="navigation" aria-label="Accès rapide">
             <ul class="fr-skiplinks__list">
