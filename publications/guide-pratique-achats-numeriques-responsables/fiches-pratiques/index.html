@@ -439,18 +439,6 @@
 
     <script src="/js/dsfr.module.min.js"></script>
     <script src="/js/smarttag.js"></script>
-    <script>
-        var tag = new ATInternet.Tracker.Tag({ sendHitWhenOptOut: false });
-        
-        if (!isOptout()) {
-            tag.privacy.setVisitorMode('cnil', 'exempt');
-            tag.page.set({ name: "Fiches pratiques par segment d’achats" });
-            tag.dispatch();
-        }
-
-        function isOptout() {
-            return 'optout' === tag.privacy.getVisitorMode().name;
-        }
-    </script>
+    <script src="/js/mesure-audience.js"></script>
   </body>
 </html>
