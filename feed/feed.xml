@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<title>Numérique écoresponsable</title>
-	<subtitle>Mission interministérielle Green Tech pilotée par la DINUM et le Ministère de la Transition Ecologique</subtitle>
+	<subtitle>Mission interministérielle Green Tech pilotée par la DINUM et le Ministère de la Transition écologique</subtitle>
 	
 	<link href="https://ecoresponsable.numerique.gouv.fr/feed/feed.xml" rel="self"/>
 	<link href="https://ecoresponsable.numerique.gouv.fr/"/>
-	<updated>2021-04-29T00:00:00Z</updated>
+	<updated>2021-04-30T00:00:00Z</updated>
 	<id>https://ecoresponsable.numerique.gouv.fr/</id>
 	<author>
 		<name>Mission Green Tech</name>
@@ -15,13 +15,25 @@
 	<entry>
 		<title>Publication du Guide pratique pour des achats numériques responsables en version bêta</title>
 		<link href="https://ecoresponsable.numerique.gouv.fr/posts/guide-achats-numerique-responsable-version-beta/"/>
-		<updated>2021-04-29T00:00:00Z</updated>
+		<updated>2021-04-30T00:00:00Z</updated>
 		<id>https://ecoresponsable.numerique.gouv.fr/posts/guide-achats-numerique-responsable-version-beta/</id>
-		<content type="html">&lt;p&gt;La fabrication des équipements informatiques concentre la grande majorité des impacts environnementaux et sociaux. Il est donc essentiel de s’emparer du sujet de l’achat numérique pour le rendre plus responsable.&lt;/p&gt;
-&lt;p&gt;Ce guide, contenant des fiches pratiques d’achat responsable et s’adressant en priorité aux acheteurs de l’État, mais également à tout agent public, acheteur du secteur privé ou citoyen, permet de trouver des ressources pour être acteur de ce changement.&lt;/p&gt;
-&lt;p&gt;Vous y trouverez plusieurs familles d’achats avec pour chacune, des recommandations déclinées en fiches pratiques : Matériels bureautiques, Solutions d’impressions, Réseaux et télécoms, Infrastructures et cloud, Prestations intellectuelles (P2I) et Logiciels.&lt;/p&gt;
-&lt;p&gt;Ce guide s’adresse à toute personne impliquée, à un stade ou à un autre dans les achats numériques. D’abord et en priorité à l’écosystème des acheteurs de l’État. Il a été construit avec eux.&lt;/p&gt;
-&lt;p&gt;Cependant ce guide a une portée plus large. Tout acheteur public ou privé doit pouvoir y trouver des ressources pour être acteur de ce changement. C’est une volonté forte des parties prenantes de ce projet.&lt;/p&gt;
+		<content type="html">&lt;p&gt;La Direction interministérielle du Numérique (DINUM), le Ministère de la Transition écologique / CGDD, la Direction des achats de l&#39;État (DAE) et l&#39;Institut du Numérique Responsable (INR) ont présenté &lt;a href=&quot;https://bbb-dinum-scalelite.visio.education.fr/playback/presentation/2.0/playback.html?meetingId=6a42dba1ce5f3be1330d9a211e7789aba4978511-1619707374388&amp;amp;t=0s&quot;&gt;lors d&#39;un webinaire&lt;/a&gt; ce jeudi 29 avril le &lt;a href=&quot;https://ecoresponsable.numerique.gouv.fr/publications/guide-pratique-achats-numeriques-responsables/&quot;&gt;Guide pratique pour des achats numériques responsables&lt;/a&gt; en version bêta.&lt;/p&gt;
+&lt;p&gt;Ce guide consigne de nombreuses recommandations à l’adresse des acteurs publics, recommandations également ouvertes aux acteurs du secteur privé qui peuvent se les approprier dans leur propre démarche d’achat.&lt;/p&gt;
+&lt;p&gt;Publié sous format dématérialisé, &lt;a href=&quot;https://purpoz.com/consultation/guide-pour-des-achats-numeriques-responsables/presentation/presentation&quot;&gt;le guide est l’objet durant un mois d’une consultation publique&lt;/a&gt; principalement à l&#39;intention des professionnels de l&#39;achat de biens et services du numérique. Une nouvelle version enrichie des contributions sera actualisée à l’issue de cette consultation.&lt;/p&gt;
+&lt;div class=&quot;fr-grid-row fr-grid-row--gutters&quot;&gt;
+  &lt;div class=&quot;fr-col-12 fr-col-md-6&quot;&gt;
+    &lt;a target=&quot;_self&quot; href=&quot;https://ecoresponsable.numerique.gouv.fr/docs/2021/guide-achats-numeriques-responsables-version-beta-avril-2021.pdf&quot; title=&quot;Télécharger le Guide pratique pour des achats numériques responsables (pdf 1,8 Mo)&quot;&gt;&lt;img src=&quot;https://ecoresponsable.numerique.gouv.fr/img/guide-achats/couverture-guide-achats-numerique-responsable.png&quot; class=&quot;fr-responsive-img&quot; alt=&quot;&quot; style=&quot;border: 1px solid #ccc&quot; /&gt;&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;fr-col-12 fr-col-md-6&quot;&gt;
+&lt;h2&gt;Consulter en ligne&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&quot;fr-link fr-fi-arrow-right-line fr-link--icon-right&quot; href=&quot;https://ecoresponsable.numerique.gouv.fr/publications/guide-pratique-achats-numeriques-responsables/&quot;&gt;Accueil du guide&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Télécharger&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&quot;fr-link fr-fi-download-line fr-link--icon-left&quot; target=&quot;_self&quot; href=&quot;https://ecoresponsable.numerique.gouv.fr/docs/2021/guide-achats-numeriques-responsables-version-beta-avril-2021.pdf&quot;&gt;Télécharger le Guide pratique pour des achats numériques responsables (pdf 1,8 Mo)&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Contribuer&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&quot;fr-link fr-fi-arrow-right-line fr-link--icon-right&quot; href=&quot;https://purpoz.com/consultation/guide-pour-des-achats-numeriques-responsables/presentation/presentation&quot;&gt;Participer à la consultation publique&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Version actuelle&lt;/strong&gt; : version Bêta, publié sous &lt;a href=&quot;https://github.com/etalab/licence-ouverte/blob/master/LO.md&quot;&gt;licence ouverte Etalab version 2.0&lt;/a&gt;&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 </content>
 	</entry>
 </feed>
