@@ -5,12 +5,25 @@
 	
 	<link href="https://ecoresponsable.numerique.gouv.fr/feed/feed.xml" rel="self"/>
 	<link href="https://ecoresponsable.numerique.gouv.fr/"/>
-	<updated>2021-04-30T00:00:00Z</updated>
+	<updated>2021-06-02T00:00:00Z</updated>
 	<id>https://ecoresponsable.numerique.gouv.fr/</id>
 	<author>
 		<name>Mission Green Tech</name>
 		<email>numerique-responsable.dinum@modernisation.gouv.fr</email>
 	</author>
+	
+	<entry>
+		<title>Semaine Européenne du Numérique Responsable</title>
+		<link href="https://ecoresponsable.numerique.gouv.fr/posts/semaine-europeenne-du-numerique-responsable/"/>
+		<updated>2021-06-02T00:00:00Z</updated>
+		<id>https://ecoresponsable.numerique.gouv.fr/posts/semaine-europeenne-du-numerique-responsable/</id>
+		<content type="html">&lt;p&gt;La Ville et l’Eurométropole de Strasbourg organise du 7 au 12 juin 2021 une semaine de conférences et ateliers pour un numérique plus respectueux de l’environnement,&lt;br /&gt;
+accessible, inclusif et éthique.&lt;/p&gt;
+&lt;p&gt;Au programme entre autres, la filière du réemploi du numérique comme vecteur d’égalité citoyenne, l’obsolescence programmée ou comment reprendre la main sur sa machine,&lt;br /&gt;
+comment intégrer les principes du numérique responsable dans la réalisation de sites internet ou bien une table ronde sur le numérique responsable en Europe.&lt;/p&gt;
+&lt;p&gt;La mission Green Tech participe à cet évènement notamment à un atelier Numérique Responsable dédié au secteur public.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Publication du Guide pratique pour des achats numériques responsables en version bêta</title>
