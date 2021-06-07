@@ -11,7 +11,7 @@ eleventyNavigation:
 
 <div class="fr-highlight">
 
-Dans le cadre de cette mission interministérielle « Green Tech », la réglementation et les projets de réglementations pour réduire les impacts environnementaux du numérique sont suivis de près afin de fournir aux différentes parties prenantes, principalement les agents publics, toutes les informations réglementaires dont ils ont besoin.
+Dans le cadre cadre de cette mission interministérielle « Green Tech », la réglementation et les projets de réglementations pour réduire les impacts environnementaux du numérique sont suivis de près afin de fournir aux différentes parties prenantes, principalement les agents publics, toutes les informations réglementaires dont ils ont besoin.
 
 </div>
 
